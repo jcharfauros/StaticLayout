@@ -141,18 +141,24 @@ h2 {
 
 /* center w/laptop */
 .container-center {
-    align-items: center;
+    /* align-items: center; */
+    display: flex;
+    align-items: center;    
 }
+
 .center-page {
     text-align: center;
     margin: 0;
     background: transparent;
+    padding: auto;
     position: absolute;   
     top: 50%;
     left: 50%;    
+    /* margin-right: auto;
+    margin-right: auto; */
     margin-top: 100px;
     margin-right: -50%;
-    margin-bottom: 10em;
+    margin-bottom: 10em; 
     transform: translate(-50%, -50%);
 }
 
