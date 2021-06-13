@@ -79,6 +79,20 @@ h2 {
     font-size: 1em;
 }
 
+/* OPEN KAST btn orange */
+.kast2-btn {
+    background-color: rgb(255, 151, 14);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid rgb(255, 151, 14);
+    /* border-radius: 5px; */
+    padding: 10px 50px 10px 50px;
+    margin: 0 2em 0em 2em;    
+    font-size: 18px;
+}
+
 /* nav dropdowns */
 
 .dropbtn {
@@ -168,6 +182,7 @@ h2 {
 /* white space with links */
 .container-featured {
     align-items: center;
+    /* padding-top: 5em; */
 }
 
 .link-section2 {
